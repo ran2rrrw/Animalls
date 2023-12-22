@@ -40,13 +40,13 @@
 				<%for(ProductDto tmp:list){%>
 							<li>
 								<div class="thumbnail">
-									<a href="${pageContext.request.contextPath}/productDetail.jsp?productId=<%=tmp.getProductId()%>">
+									<a href="${pageContext.request.contextPath}/product/productDetail.jsp?productId=<%=tmp.getProductId()%>">
 										<img src="<%=tmp.getThumbnail() %>" width="100px" height="150px"/>
 									</a>
 								</div>
 								<div class="description">
 								 	<strong class="name">
-								 		<a href="${pageContext.request.contextPath}/productDetail.jsp?productId=<%=tmp.getProductId()%>"><%=tmp.getTitle() %></a>
+								 		<a href="${pageContext.request.contextPath}/product/productDetail.jsp?productId=<%=tmp.getProductId()%>"><%=tmp.getTitle() %></a>
 								 	</strong>
 								 	<ul class="price">
 								 		<%if(tmp.getSalesState().equals("on_sale")) {%>
