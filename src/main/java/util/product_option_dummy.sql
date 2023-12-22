@@ -1,4 +1,4 @@
---product_option 
+--product_option product_id 3번까지 추가
 --선택안함
 INSERT INTO PRODUCT_OPTION
 (option_id, product_id, description, additional_price)

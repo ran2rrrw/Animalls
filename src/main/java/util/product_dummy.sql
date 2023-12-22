@@ -1,4 +1,4 @@
---product 22개
+--product 테이블 22개 행
 INSERT INTO PRODUCT
 (product_id, seller_id, category, title, description, org_price, sale_price, sales_state, thumbnail)
 VALUES(PRODUCT_SEQ.NEXTVAL,'dum1' ,'bath', '버블 샴푸 독스', 'EWG 그린 등급으로 이루어진 저자극 천연 샴푸 버블 샴푸', 31000, 21500, 'on_sale', 'https://pethroom.com/web/product/big/202202/1e2397ac05098506d4aedbf385c69357.jpg' );
